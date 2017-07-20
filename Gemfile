@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rails', '~> 5.1'
+gem 'activeresource'
 
 group :development do
   gem 'bullet'
