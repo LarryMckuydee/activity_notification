@@ -130,7 +130,7 @@ module ActivityNotification
       @parent_mailer           = 'ActionMailer::Base'
       @parent_controller       = 'ApplicationController'
       @opened_index_limit      = 10
-      @orm                     = :active_record
+      @orm                     = :active_resource
     end
 
     # Sets ORM name for ActivityNotification (:active_record or :mongoid)
