@@ -1,4 +1,5 @@
 require 'activity_notification/apis/notification_api'
+require 'activeresource'
 
 module ActivityNotification
   module ORM
