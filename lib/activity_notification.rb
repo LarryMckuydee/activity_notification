@@ -45,6 +45,8 @@ module ActivityNotification
     autoload :Association, "activity_notification/orm/#{ActivityNotification.config.orm}"
   end
 
+  autoload :Association, "activity_notification/orm/active_resource"
+
   # Method used to choose which ORM to load
   # when ActivityNotification::Notification class or ActivityNotification::Subscription class
   # are being autoloaded
